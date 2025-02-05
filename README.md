@@ -26,7 +26,7 @@ I also attempted a **statistical analysis** by measuring angles between vectors.
 - **Code:** [Statistical Analysis](./Reverse_Monte_Carlo_analysis/Gd2Hf2O7/Statistical_analysis_of_local_vector_patterns.ipynb)
 
 | Data projected into the reduced space formed by the first three principal components, clustered with using KMeans. Each cluster in a color represents a type of correlation pattern. |
----------------------
+|------|
 | <img src="./Reverse_Monte_Carlo_analysis/Gd2Hf2O7/PCA_representation_projected.png" width=600 alt=""> |
 
 ---
