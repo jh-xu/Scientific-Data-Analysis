@@ -26,7 +26,7 @@ I also attempted a **statistical analysis** by measuring angles between vectors.
 - **Code:** [Statistical Analysis](./Reverse_Monte_Carlo_analysis/Gd2Hf2O7/Statistical_analysis_of_local_vector_patterns.ipynb)
 
 | Data projected into the reduced space formed by the first three principal components, clustered with using KMeans. Each cluster in a color represents a type of correlation pattern. |
-|------|
+|:------:|
 | <img src="./Reverse_Monte_Carlo_analysis/Gd2Hf2O7/PCA_representation_projected.png" width=600 alt=""> |
 
 ---
@@ -40,7 +40,7 @@ In this project, I used **MFT to analyze neutron diffuse scattering data**, a co
 - **Code:** [MFT Analysis](./Reverse_Monte_Carlo_analysis/Gd2Hf2O7/Mean_field_analysis_with_Python_at_RWTH_HPC_center/Mean_field.ipynb)  
 
 | Diffuse neutron scattering data and MFT fit at different temperatures | Calculated scattering pattern for a pyrochlore antiferromagnet|
-|---------|---------|
+|:---------:|:---------:|
 | <img src="./Reverse_Monte_Carlo_analysis/Gd2Hf2O7/Mean_field_analysis_with_Python_at_RWTH_HPC_center/MeanField_fit_all.png" width=300 alt=""> | <img src="./Reverse_Monte_Carlo_analysis/Gd2Hf2O7/Mean_field_mapHHL.png" width=300 alt=""> |
 
 
@@ -59,21 +59,15 @@ To streamline this process, I developed an **automated Python pipeline** that:
 - **Code:** [4D Data Analysis](./Nd2Zr2O7_spinwave_neutron/Nd2Hf2O7_IN5_spinwave_fit.ipynb)  
 - **Publication:** [Phys. Rev. B](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.L100401)  
 
-<figure>
-  <figcaption><b>3D volume data cut from a 4D dataset (source: <a href="https://mantidproject.org/File_SpinWavesDE.html">MantidProject</a>).</b></figcaption>
-  <img src="./Nd2Zr2O7_spinwave_neutron/Vol_data_Mantid.png" width=300 alt="">
-</figure>
-
-<figure>
-  <figcaption><b>A slice of the 4D dataset.</b> </figcaption>
-  <img src="./Nd2Zr2O7_spinwave_neutron/Map_QE_1.png" width=300 alt="">
-</figure>  
+|3D volume data cut from a 4D dataset (source: [MantidProject](https://mantidproject.org/File_SpinWavesDE.html)).|A slice of the 4D dataset.|
+|:---:|:---:|
+|<img src="./Nd2Zr2O7_spinwave_neutron/Vol_data_Mantid.png" width=300 alt="">|<img src="./Nd2Zr2O7_spinwave_neutron/Map_QE_1.png" width=300 alt="">|
 
 <figure>
   <figcaption><b>Cuts and peak fits of the 4D data.</b>
   <img src="./Nd2Zr2O7_spinwave_neutron/Line_IE_1.png" width=600 alt="">
   </figcaption>
-</figure>  
+</figure>
 
 ---
 
