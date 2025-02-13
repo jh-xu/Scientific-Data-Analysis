@@ -12,7 +12,7 @@ I am sharing these works to encourage discussion and feedback. I hope they are u
 
 ---
 
-## 🔍 Machine Learning for Short-Range Spin Correlations in Gd₂Hf₂O₇  
+## 🎰 Machine Learning for Short-Range Spin Correlations in Gd₂Hf₂O₇  
 
 A conventional approach to identifying spin correlations in a magnetic system involves defining multiple order parameters based on prior knowledge—an experience-dependent process.  
 
@@ -31,7 +31,7 @@ I also attempted a **statistical analysis** by measuring angles between vectors.
 
 ---
 
-## 📊 Mean-Field Analysis of Neutron Diffuse Scattering of Classical Spin Liquids  
+## 🎰 Mean-Field Analysis of Neutron Diffuse Scattering of Classical Spin Liquids  
 
 **Mean field theory (MFT)** was originally developed over a century ago to study high-dimensional stochastic models. It has since been applied across various fields.  
 
@@ -43,10 +43,25 @@ In this project, I used **MFT to analyze neutron diffuse scattering data**, a co
 |:---------:|:---------:|
 | <img src="./Reverse_Monte_Carlo_analysis/Gd2Hf2O7/Mean_field_analysis_with_Python_at_RWTH_HPC_center/MeanField_fit_all.png" width=300 alt=""> | <img src="./Reverse_Monte_Carlo_analysis/Gd2Hf2O7/Mean_field_mapHHL.png" width=300 alt=""> |
 
+---
+
+## ✨ Molecular Dynamics on a Many-Spin Model
+
+**Molecular dynamics (MD)** is a powerful computational method used to simulate the physical movements of atoms, molecules, and atomic spins. It provides valuable insights into **N-body problems** at finite temperatures. In this approach, the **Monte Carlo** method is first applied to obtain an **equilibrium state**, followed by numerical integration of the **equations of motion** to simulate dynamical evolution.
+
+In this study, I employed MD simulations to investigate **collective spin dynamics** at finite temperatures in the quantum magnet Nd₂Zr₂O₇. More details can be found in my publication and blog article. Additionally, I have provided a code implementation demonstrating a simple example based on a one-dimensional ferromagnetic spin chain model.
+
+- **Code:** [Molecular Dynamics Analysis](./Nd2Zr2O7_spinwave_neutron/Monte_Carlo_spin_chain.ipynb)  
+- **Blog:** [Monte Carlo and molecular dynamics simulations](https://jh-xu.github.io/posts/Monte-Carlo-and-molecular-dynamics-simulations)
+- **Publication:** [Order out of a Coulomb Phase and Higgs Transition (Phys. Rev. Lett., 124, 097203)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.097203)
+
+| Simulated spin dynamics of a ferromagnetic spin chain. |
+|:------:|
+| <img src="./Nd2Zr2O7_spinwave_neutron/spin_procession_chain.gif" width=600 alt=""> |
 
 ---
 
-## 🌀 Exploring Large 4D Neutron Spectroscopy Datasets (~100GB)  
+## 🔍 Exploring Large 4D Neutron Spectroscopy Datasets (~100GB)  
 
 Modern **time-of-flight neutron spectrometers** generate massive four-dimensional datasets (momentum & energy). Manually slicing and cutting through such data is time-consuming, labor-intensive, and requires significant expertise.  
 
@@ -57,7 +72,7 @@ To streamline this process, I developed an **automated Python pipeline** that:
 ✅ Exports results for further analysis  
 
 - **Code:** [4D Data Analysis](./Nd2Zr2O7_spinwave_neutron/Nd2Hf2O7_IN5_spinwave_fit.ipynb)  
-- **Publication:** [Phys. Rev. B](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.L100401)  
+- **Publication:** [Pinch points and half-moons in dipolar-octupolar Nd₂Hf₂O₇ (Phys. Rev. B, 106, L100401)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.L100401)  
 
 |3D volume data cut from a 4D dataset (source: [MantidProject](https://mantidproject.org/File_SpinWavesDE.html)).|A slice of the 4D dataset.|
 |:---:|:---:|
@@ -71,7 +86,7 @@ To streamline this process, I developed an **automated Python pipeline** that:
 
 ---
 
-## 🔬 Automating Crystal Field Analysis  
+## 🤖 Automating Crystal Field Analysis  
 
 [SPECTRA](https://www.physics.ox.ac.uk/our-people/boothroyd/software) is a widely used tool for analyzing **crystal electric field interactions**. However, its outdated **command-line interface** requires manual input of dozens of parameters—one by one—making it tedious and error-prone.  
 
@@ -86,7 +101,7 @@ To improve efficiency, I automated the interaction process using **Python + Pexp
 
 ---
 
-## ⚙️ X-ray/Neutron Diffraction Analysis  
+## 📊 X-ray/Neutron Diffraction Analysis  
 
 X-ray and neutron diffraction are standard techniques for determining and refining crystal structures. To automate the visualization of diffraction fits, I developed a Python script to **load and plot [FullProf](https://www.ill.eu/sites/fullprof/) fit results in one step**, significantly improving workflow efficiency.  
 
@@ -106,7 +121,7 @@ X-ray and neutron diffraction are standard techniques for determining and refini
 - Python, MATLAB, Mathematica, Julia, C  
 
 ### 📚 Libraries & Frameworks:  
-- NumPy, SciPy, Matplotlib, scikit-learn, Numba, Pexpect, Joblib, VPython, Plotly  
+- NumPy, SciPy, Matplotlib, Plotly, scikit-learn, Numba, Pexpect, Joblib, VPython
 
 ### 🔬 Computational Techniques:  
 - Machine learning for pattern recognition  
